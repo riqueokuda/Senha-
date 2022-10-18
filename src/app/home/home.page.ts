@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
   senha: string = "";
-  forca: string[] = ["...", "FRACA", "MÉDIA", "FORTE", "MUITO FORTE"];
+  forca: string[] = [" ", "FRACA", "MÉDIA", "FORTE", "MUITO FORTE"];
   nivel: number = 0;
 
   constructor() {}

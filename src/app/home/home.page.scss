@@ -1,27 +1,56 @@
-#container {
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 100%;
+height: 50px;
+}
+
+.barracinza{
+  background-color: #f6f6f6;
+  width: 65%;
+  height: 30px;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  border-radius: 30px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.barra0{
+background-color: #8c8c8c;
+width:0;
+height: 30px;
+border-radius: 30px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.barra1{
+  background-color: red;
+  height: 30px;
+  width: 25%;
+  border-radius: 30px;
 }
 
-#container a {
-  text-decoration: none;
+.barra2{
+background-color: yellow;
+height: 30px;
+width: 50%;
+border-radius: 30px;
+}
+
+.barra3{
+background-color: greenyellow;
+height: 30px;
+width: 75%;
+border-radius: 30px;
+}
+
+.barra4{
+background-color: green;
+height: 30px;
+width: 100%;
+border-radius: 30px;
+}
+
+.nivel{
+  margin-top: 0px;
+  padding-top: 5px;
 }
