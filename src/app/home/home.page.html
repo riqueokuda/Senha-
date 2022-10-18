@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Senha Certa
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Senha:</ion-label>
+    <ion-input [(ngModel)]="senha" (keyup)="verificar()"></ion-input>
+  </ion-item>
+
+  <h1>Sua senha é {{forca[nivel]}}</h1>
+  <img src="../../assets/{{nivel}}.png" alt="">
+</ion-content>
